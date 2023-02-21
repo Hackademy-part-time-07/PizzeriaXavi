@@ -17,21 +17,29 @@
 </head>
 
 <body>
-    <div class="container-fluid sticky-lg-top">
-        <nav class="row align-items-center bg-warning border-bottom border-dark">
-            <div class="col-6">
-                <a href="index.html"> <img src="image-removebg-preview.png" alt="logo La Pizzeria"
-                        width="150px"></a>
-            </div>
-            <div class="col-6 text-center">
-                <ul class="list d-md-flex justify-content-end">
-                    <li class="m-md-2"><a href="" class="text-danger">La carta</a></li>
-                    <li class="m-md-2"><a href="" class="text-danger">Quienes somos</a></li>
-                    <li class="m-md-2"><a href="" class="text-danger">Contactanos</a></li>
+    <nav class="navbar navbar-expand-lg bg-warning border-bottom border-dark sticky-lg-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="image-removebg-preview.png" alt="logo La Pizzeria" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 list">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">La carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactanos</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <header>
         <div class="container-fluid">
             <div class="row text-center border-bottom border-dark">
@@ -50,35 +58,76 @@
                     <div class="col-12 my-5 p-5 text-center">
                         <h2>Nuestras Pizzas</h2>
                     </div>
-                    <div class="col-6 col-lg-4 p-5 mb-3">
-                        <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-carbonara-600x600.jpg"
-                            alt="pizza carbonara" width="150px">
-                        <h5>Pizza Carbonara</h5>
+                    <div class="col-12 col-sm-6 col-lg-4  p-5 mb-3">
+                        <div class="card rounded-bottom-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem;">
+                            <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-carbonara-600x600.jpg"
+                                class="card-img-top" alt="carbonara">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza Carbonara</h5>
+                                <p class="card-text">Base crema de leche, bacon, cebolla...</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-lg-4 p-5 mb-3">
-                        <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-barbacoa-480x480.jpg"
-                            alt="Pizza Barbacoa" width="150px">
-                        <h5>Pizza Barbacoa</h5>
+
+                    <div class="col-12 col-sm-6 col-lg-4 p-5 mb-3">
+                        <div class="card rounded-bottom-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem;">
+                            <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-barbacoa-480x480.jpg"
+                                class="card-img-top" alt="barbacoa">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza Barbacoa</h5>
+                                <p class="card-text">Base salsa barbacoa, carne picada, bacon, jamon...</p>
+
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="col-6 col-lg-4 p-5 mb-3">
-                        <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-cuatro-estaciones-480x480.jpg"
-                            alt="Cuatro Estaciones" width="150px">
-                        <h5>Pizza Cuatro Estaciones</h5>
+                    <div class="col-12 col-sm-6 col-lg-4 p-5 mb-3">
+
+                        <div class="card rounded-bottom-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem;">
+                            <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-cuatro-estaciones-480x480.jpg"
+                                class="card-img-top" alt="Cuatro estaciones">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza Cuatro Estaciones</h5>
+                                <p class="card-text">Base tomate, champiñones, gambas, pimientos...</p>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-lg-4 p-5 ">
-                        <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-cuatro-quesos-480x480.jpg"
-                            alt="Pizza 4 Quesos" width="150px">
-                        <h5>Pizza 4 Quesos</h5>
+                    <div class="col-12 col-sm-6 col-lg-4 p-5 ">
+
+                        <div class="card rounded-bottom-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem;">
+                            <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-cuatro-quesos-480x480.jpg"
+                                class="card-img-top" alt="Pizza 4 Quesos">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza 4 Quesos</h5>
+                                <p class="card-text">Base de tomate, roquefort, emmental, scamorza...</p>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-lg-4 p-5 ">
-                        <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-de-la-casa-menorquina-480x480.jpg"
-                            alt="La Menorquina" width="150px">
-                        <h5>La Menorquina</h5>
+                    <div class="col-12 col-sm-6 col-lg-4 p-5 ">
+
+                        <div class="card rounded-bottom-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem;">
+                            <img src="https://www.pizzariola.com/wp-content/uploads/2021/02/pizza-de-la-casa-menorquina-480x480.jpg"
+                                class="card-img-top" alt="La Menorquina">
+                            <div class="card-body">
+                                <h5 class="card-title">La Menorquina</h5>
+                                <p class="card-text">Base de tomate, sobrassada, miel, emmental...</p>
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-lg-4 p-5 ">
-                        <img src="https://www.pizzariola.com/wp-content/uploads/2021/03/pizza-jamon-queso-2-480x480.jpg"
-                            alt="Jamon y Queso" width="150px">
-                        <h5>Pizza Jamon y Queso</h5>
+                    <div class="col-12 col-sm-6 col-lg-4 p-5 ">
+
+                        <div class="card rounded-bottom-4 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem;">
+                            <img src="https://www.pizzariola.com/wp-content/uploads/2021/03/pizza-jamon-queso-2-480x480.jpg"
+                                class="card-img-top" alt="Jamon y Queso">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza Jamon y Queso</h5>
+                                <p class="card-text">Base de tomate, jamon cocido, mozzarella...</p>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -107,36 +156,52 @@
 
             </div>
         </section>
-        <section class="mt-5">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-lg-4 text-center p-5">
-                        <h4>RESTAURANTE
-                        </h4>
-                        <img src="https://pizzeriacanet.com/wp-content/uploads/2019/04/restaurantecanet.png"
-                            alt="restaurante" width="300px">
-                        <p>Pizzeria Restaurante especializados en comida italiana. <br>
-                            ¡Menú diario!</p>
-                    </div>
-                    <div class="col col-lg-4 text-center p-5">
-                        <h4>A DOMICILIO Y PARA LLEVAR
-                        </h4>
-                        <img src="https://pizzeriacanet.com/wp-content/uploads/2019/04/pizza-a-domicilio.png"
-                            alt="cajas pizzas" width="300px">
-                        <p>Las pizzas italianas más auténticas sin salir de casa <br>
-                            ¿Te la llevamos?</p>
-                    </div>
-                    <div class="col col-lg-4 text-center p-5">
-                        <h4>DESAYUNOS TODOS LOS DIAS
-                        </h4>
-                        <img src="https://pizzeriacanet.com/wp-content/uploads/2019/04/desayunos-canet.png"
-                            alt="desayunos" width="300px">
-                        <p>Desayunos de lunes a viernes, de 8:00 A 12:00h <br>
-                            ¡Te esperamos</p>
-
-                    </div>
-
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.foodies.pk/wp-content/uploads/2020/04/italian-cuisine-italian-food-scaled.jpeg"
+                            class="d-block w-100 h-75" alt="menu">
+                        <div class="carousel-caption text-warning fs-1 fw-bold sombra">
+                            <h5>¡Menú diario!</h5>
+                            <p>Pizzeria Restaurante especializados en comida italiana.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.cocinacaserayfacil.net/wp-content/uploads/2020/03/Platos-de-comida-que-pides-a-domicilio-y-puedes-hacer-en-casa-945x630.jpg"
+                            class="d-block w-100 h-75" alt="domicilio">
+                        <div class="carousel-caption text-warning fs-1 fw-bold sombra">
+                            <h5>¿Te la llevamos?</h5>
+                            <p>Las pizzas italianas más auténticas sin salir de casa</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.kayak.es/news/wp-content/uploads/sites/2/2022/10/THEME_FOOD_ITALIAN_BREAKFAST_CORNETTO_CAPPUCCINO_GettyImages-1150766330.jpg"
+                            class="d-block w-100 h-75" alt="Desayunos">
+                        <div class="carousel-caption  text-warning fs-1 fw-bold sombra">
+                            <h5>¡Te esperamos!</h5>
+                            <p>Desayunos de lunes a viernes, de 8:00 A 12:00h</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
         </section>
@@ -147,14 +212,16 @@
         </section>
         <section>
             <div class="d-flex align-items-center justify-content-center">
-                <a href="https://www.tripadvisor.es/"><img src="https://pizzeriacanet.com/wp-content/uploads/2019/04/28272_Digital_Promo_Assets_Circle_esES_rebrand-04.png" alt="trip advisor"></a>
+                <a href="https://www.tripadvisor.es/"><img
+                        src="https://pizzeriacanet.com/wp-content/uploads/2019/04/28272_Digital_Promo_Assets_Circle_esES_rebrand-04.png"
+                        alt="trip advisor"></a>
             </div>
         </section>
     </main>
     <footer class="container-fluid">
         <div class="row bg-dark text-warning p-5 pb-0">
-            <div class="col-6 col-md-3 offset-md-3">
-                <h6>Contacto</h6>
+            <div class="col-6 col-md-3 offset-md-2">
+                <h6>Localizacion</h6>
                 <ul style="list-style: none;">
                     <li>Tel. 699 888 777</li>
                     <li>C/ La Italiana, 59</li>
@@ -173,15 +240,16 @@
                     de 13:00 a 15:30h <br>
                     de 20:00 a 23:00h</p>
             </div>
-        <div class="row">
-            <div class="col-6 d-flex align-items-end copy">
-                <p>©2023 Xavier Sobrevals</p>
-            </div>
-            <div class="col-6 d-flex justify-content-end">
-                <img src="social-media-icons-black-and-white-set-free-vector-removebg-preview.png" alt="iconos redes" width="120px">
-            </div>
+            <div class="row">
+                <div class="col-6 d-flex align-items-end copy">
+                    <p>©2023 Xavier Sobrevals</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <img src="social-media-icons-black-and-white-set-free-vector-removebg-preview.png"
+                        alt="iconos redes" width="120px">
+                </div>
 
-        </div>
+            </div>
 
         </div>
 
